@@ -1,5 +1,7 @@
 # The Value of Art
 
+![alt text](https://github.com/eudansou/the_value_of_art/blob/master/app%20image.jpg)
+
 The value of art é um aplicativo que prevê valor para pinturas baseadas apenas em sua imagem. No aplicativo, você pode fazer o upload da imagem de uma obra de arte e receber uma estimativa do valor da obra¹. O acesso ao aplicativo pode ser feito através do link: 
 
 https://thevalueofart.streamlit.com
