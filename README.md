@@ -22,16 +22,10 @@ Dentre os arquivos é possível ainda encontrar notebooks onde se encontram Mode
 
 Além disso, também se tentou avaliar a imagem através de features construídas (contraste, composição, textura, etc). Não foram obtidos grandes insights por este caminho, porém é um caminho a se manter em aberto para futuros próximos passos. Junto a especialistas na área, é possível que features mais relevantes possam ser construídas.
 
-## Equipe
+## Equipe e Contato
 
-O projeto foi realizado por: 
-
-[Bia Ramalho](https://github.com/Biarsl) 
-[Carolina Gallindo](https://github.com/carolgallin), 
-[Danilo Alexandre](https://github.com/eudansou),
-[Felipe Moniz](https://github.com/FelipeMoniz),
-
-como parte do projeto de conclusão do Batch #1887 do bootcamp de Data Science e AI.
+O projeto foi realizado por [Bia Ramalho](https://github.com/Biarsl), [Carolina Gallindo](https://github.com/carolgallin), [Danilo Alexandre](https://github.com/eudansou), [Felipe Moniz](https://github.com/FelipeMoniz), como parte do projeto de conclusão do Batch #1887 do bootcamp de Data Science e AI.
+Qualquer dúvida ou sugestão de colaboração, não hesite em manda rum e-mail para [danilocezaralexandre@gmail.com](danilocezaralexandre@gmail.com).
 
 #### Notas
 ¹ Entendemos que outros fatores tais quais a relevância do autor, área e outros também são significativos no valor da obra. Leve em consideração que a obra já passou por alguma triagem envolvendo curadores e galeristas.  
