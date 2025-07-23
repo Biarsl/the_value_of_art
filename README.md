@@ -4,6 +4,8 @@ The value of art é um aplicativo que prevê valor para pinturas baseadas apenas
 
 https://thevalueofart.streamlit.com
 
+![appimage](https://github.com/eudansou/the_value_of_art/blob/master/images/appimage.jpg)
+
 Para além de um aplicativo, o projeto também é o primero passo para entender se é possível, através de Deep Learning, perceber padrões - que passariam desapercebidos - nas imagens que influenciam o valor da obra.
 
 ## O modelo e suas métricas. (Como funciona)
@@ -22,7 +24,14 @@ Além disso, também se tentou avaliar a imagem através de features construída
 
 ## Equipe
 
-O projeto foi realizado por Bia Ramalho, Carolina Gallindo, Danilo Alexandre e Felipe Moniz, como parte do projeto de conclusão do Batch #1887 do bootcamp de Data Science e AI.
+O projeto foi realizado por: 
+
+[Bia Ramalho](https://github.com/Biarsl) 
+[Carolina Gallindo](https://github.com/carolgallin), 
+[Danilo Alexandre](https://github.com/eudansou),
+[Felipe Moniz](https://github.com/FelipeMoniz),
+
+como parte do projeto de conclusão do Batch #1887 do bootcamp de Data Science e AI.
 
 #### Notas
 ¹ Entendemos que outros fatores tais quais a relevância do autor, área e outros também são significativos no valor da obra. Leve em consideração que a obra já passou por alguma triagem envolvendo curadores e galeristas.  
