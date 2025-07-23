@@ -14,7 +14,7 @@ O aplicativo (codado utilizando streamlit) está conectado através de uma API (
 
 ## A base de dados
 
-A base de dados é composta por 2000 imagens e algumas outras features de possível importância (estilo, material, dimensões, autor). A base de dados foi obtida através de um web scrapping da galeria Saatchi Art. O código para o scrapping pode ser encontrado no arquivo scrapping.py. 
+A base de dados é composta por 2000 imagens e algumas outras features de possível importância (estilo, material, dimensões, autor). A base de dados foi obtida através de um web scrapping da galeria Saatchi Art. O código para o scrapping pode ser encontrado no arquivo scraping.py. 
 
 ## Modelos Alternativos e Feature Engineering
 
@@ -28,4 +28,29 @@ O projeto foi realizado por [Bia Ramalho](https://github.com/Biarsl), [Carolina 
 Qualquer dúvida ou sugestão de colaboração, não hesite em manda rum e-mail para [danilocezaralexandre@gmail.com](danilocezaralexandre@gmail.com).
 
 #### Notas
-¹ Entendemos que outros fatores tais quais a relevância do autor, área e outros também são significativos no valor da obra. Leve em consideração que a obra já passou por alguma triagem envolvendo curadores e galeristas.  
+¹ Entendemos que outros fatores tais quais a relevância do autor, área e outros também são significativos no valor da obra. Leve em consideração que a obra já passou por alguma triagem envolvendo curadores e galeristas. 
+
+## English Version
+
+"The value of art" is an application that predicts the value of paintings based solely on their image. In the app, you can upload an image of an artwork and receive an estimated value for the piece¹. The application can be accessed via the following link:
+
+https://thevalueofart.streamlit.com
+
+Beyond being an application, this project is also the first step in understanding whether it is possible, through Deep Learning, to perceive patterns — which might otherwise go unnoticed — in images that influence the value of an artwork.
+
+## The Model and its Metrics (How it works)
+The application (coded using Streamlit) is connected via FastAPI to a CNN (Convolutional Neural Network) model trained on a dataset of 2000 images. We achieved an MALE score (Mean Absolute Logarithmic Error) of 0.21, a 73% reduction compared to the baseline model (which predicts only the average value of the dataset for any artwork). The MALE metric was chosen as it proved to be the most effective in handling outliers. After applying the logarithm to the dataset values, we observed a distribution very close to normal.
+
+## The Dataset
+The dataset consists of 2000 images and some other features of potential importance (style, material, dimensions, author). The data was obtained by web scraping the Saatchi Art gallery. The code for the scraping can be found in the scraping.py file.
+
+## Alternative Models and Feature Engineering
+Among the project files, you can also find notebooks containing Regression Models built using the other features from the dataset. Through these notebooks, it becomes apparent that, surprisingly, materials and style do not have a significant impact on the price of the artworks. This analysis revealed a correlation of approximately 0.55 between the area of the paintings and their values. This was not used in the calculation of the current model deployed in the API; however, it is a feature to be considered in future continuations of the project.
+
+Furthermore, an attempt was made to evaluate the images through engineered features (contrast, composition, texture, etc.). No significant insights were gained from this approach, but it remains an open path for future steps. With the help of experts in the field, it may be possible to engineer more relevant features.
+
+## Team and Contact
+This project was carried out by Bia Ramalho, Carolina Gallindo, Danilo Alexandre, and Felipe Moniz as part of the final project for Batch #1887 of the Data Science and AI bootcamp. For any questions or collaboration, please send an email to danilocezaralexandre@gmail.com.
+
+### Notes
+¹ We understand that other factors, such as the author's relevance, the artwork's area, and others, are also significant in determining its value. Please consider that the artwork has already undergone some form of screening by curators and gallerists.
