@@ -25,7 +25,6 @@ Além disso, também se tentou avaliar a imagem através de features construída
 ## Equipe e Contato
 
 O projeto foi realizado por [Bia Ramalho](https://github.com/Biarsl), [Carolina Gallindo](https://github.com/carolgallin), [Danilo Alexandre](https://github.com/eudansou), [Felipe Moniz](https://github.com/FelipeMoniz), como parte do projeto de conclusão do Batch #1887 do bootcamp de Data Science e AI.
-Qualquer dúvida ou sugestão de colaboração, não hesite em manda rum e-mail para [danilocezaralexandre@gmail.com](danilocezaralexandre@gmail.com).
 
 #### Notas
 ¹ Entendemos que outros fatores tais quais a relevância do autor, área e outros também são significativos no valor da obra. Leve em consideração que a obra já passou por alguma triagem envolvendo curadores e galeristas. 
@@ -50,7 +49,7 @@ Among the project files, you can also find notebooks containing Regression Model
 Furthermore, an attempt was made to evaluate the images through engineered features (contrast, composition, texture, etc.). No significant insights were gained from this approach, but it remains an open path for future steps. With the help of experts in the field, it may be possible to engineer more relevant features.
 
 ## Team and Contact
-This project was carried out by Bia Ramalho, Carolina Gallindo, Danilo Alexandre, and Felipe Moniz as part of the final project for Batch #1887 of the Data Science and AI bootcamp. For any questions or collaboration, please send an email to danilocezaralexandre@gmail.com.
+This project was carried out by Bia Ramalho, Carolina Gallindo, Danilo Alexandre, and Felipe Moniz as part of the final project for Batch #1887 of the Data Science and AI bootcamp.
 
 ### Notes
 ¹ We understand that other factors, such as the author's relevance, the artwork's area, and others, are also significant in determining its value. Please consider that the artwork has already undergone some form of screening by curators and gallerists.
