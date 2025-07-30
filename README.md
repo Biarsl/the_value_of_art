@@ -2,7 +2,7 @@
 
 The value of art é um aplicativo que prevê valor para pinturas baseadas apenas em sua imagem. No aplicativo, você pode fazer o upload da imagem de uma obra de arte e receber uma estimativa do valor da obra¹. O acesso ao aplicativo pode ser feito através do link: 
 
-https://thevalueofart.streamlit.com
+https://thevalueofart.streamlit.app/
 
 ![appimage](https://github.com/eudansou/the_value_of_art/blob/master/images/appimage.jpg)
 
@@ -33,7 +33,7 @@ O projeto foi realizado por [Bia Ramalho](https://github.com/Biarsl), [Carolina 
 
 "The value of art" is an application that predicts the value of paintings based solely on their image. In the app, you can upload an image of an artwork and receive an estimated value for the piece¹. The application can be accessed via the following link:
 
-https://thevalueofart.streamlit.com
+https://thevalueofart.streamlit.app/
 
 Beyond being an application, this project is also the first step in understanding whether it is possible, through Deep Learning, to perceive patterns — which might otherwise go unnoticed — in images that influence the value of an artwork.
 
